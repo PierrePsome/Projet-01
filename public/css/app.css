@@ -10006,4 +10006,20 @@ h1 {
   background: url(../../public/images/main_bg.jpg);
 }
 
+.conres {
+  width: 100%;
+  background: url(../../public/images/book_table_bg.jpg);
+  border-radius: 15px;
+}
+
+.pq {
+  width: 100%;
+  background: url(../../public/images/testimonials_background.jpg);
+}
+
+.card {
+  border: solid 1px grey;
+  border-radius: 15px;
+}
+
 /*# sourceMappingURL=app.css.map */
