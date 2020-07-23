@@ -9981,4 +9981,29 @@ h1 {
   border-color: #dfdfdf;
 }
 
+.bf {
+  border-bottom: solid 1px;
+  border-color: #dfdfdf;
+}
+
+.lunch {
+  border-bottom: solid 1px;
+  border-color: #dfdfdf;
+}
+
+.snacks {
+  border-bottom: solid 1px;
+  border-color: #dfdfdf;
+}
+
+.dinner {
+  border-bottom: solid 1px;
+  border-color: #dfdfdf;
+}
+
+.contact {
+  width: 100%;
+  background: url(../../public/images/main_bg.jpg);
+}
+
 /*# sourceMappingURL=app.css.map */

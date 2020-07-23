@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- link app.css -->
     <link rel="stylesheet" href="./public/css/app.css">
+    <!-- link font -->
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <!-- link contact -->
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" type="text/css" href="public/css/util.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -127,15 +133,15 @@
                     <h1 class="our"><span class="text-danger">OUR</span> Menu List</h1>
                 </div>
             </div>
-                                            <!-- Vertical pill -->
-            <div class="ml-5">
+                                            <!-- Vertical pill (MENU)-->
+            <div class="ml-5 pb-5">
                 <div class="row">
                     <div class="col-3 p-0">
                     <div class="vertical nav flex-column nav-pills mw-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active text-dark p-5 d-flex justify-content-center w-75" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">BreakFast</a>
-                        <a class="nav-link text-dark p-5 d-flex justify-content-center w-75" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Lucnh</a>
-                        <a class="nav-link text-dark p-5 d-flex justify-content-center w-75" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Snacks</a>
-                        <a class="nav-link text-dark p-5 d-flex justify-content-center w-75" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Dinner</a>
+                        <a class="bf nav-link active text-dark p-5 d-flex justify-content-center w-75" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">BreakFast</a>
+                        <a class="lunch nav-link text-dark p-5 d-flex justify-content-center w-75" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Lucnh</a>
+                        <a class="snacks nav-link text-dark p-5 d-flex justify-content-center w-75" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Snacks</a>
+                        <a class="dinner nav-link text-dark p-5 d-flex justify-content-center w-75" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Dinner</a>
                     </div>
                     </div>
 
@@ -510,18 +516,129 @@
             </div>
 
 
+            <div class="conres w-75 rounded p-5 m-5">
 
+                <span class="contact1-form-title text-light">
+                    For any querry please call us at: +91-1234567890
+                </span>
+    
+    
+                <div class="d-flex justify-content-center">
+                    <div class="mx-5">
+                        <div class="wrap-input1 validate-input" data-validate = "Name is required">
+                            <input class="input1" type="text" name="name" placeholder="Enter Full Name">
+                            <span class="shadow-input1"></span>
+                        </div>
+    
+                        <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                            <input class="input1" type="text" name="email" placeholder="Phone Number">
+                            <span class="shadow-input1"></span>
+                        </div>
+    
+                        <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+                            <input class="input1" type="text" name="subject" placeholder="Date">
+                            <span class="shadow-input1"></span>
+                        </div>
+    
+                        <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+                            <input class="input1" type="text" name="subject" placeholder="Occasion">
+                            <span class="shadow-input1"></span>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <div class="wrap-input1 validate-input" data-validate = "Name is required">
+                            <input class="input1" type="text" name="name" placeholder="Enter ID">
+                            <span class="shadow-input1"></span>
+                        </div>
+    
+                        <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                            <input class="input1" type="text" name="email" placeholder="No of Person">
+                            <span class="shadow-input1"></span>
+                        </div>
+    
+                        <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+                            <input class="input1" type="text" name="subject" placeholder="Time">
+                            <span class="shadow-input1"></span>
+                        </div>
+    
+                        <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+                            <input class="input1" type="text" name="subject" placeholder="cuisine">
+                            <span class="shadow-input1"></span>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                    <div class="container-contact1-form-btn">
+                        <button class="contact1-form-btn bg-danger m-5">
+                            <span>
+                                Book Now
+                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+        </div>
 
-            <div class="p-3">
-                <h1 class="our"><span class="text-danger">OUR</span> Blog</h1>
+            <div>
+                <h1 class="our my-5"><span class="text-danger">OUR</span> Blog</h1>
             </div>
+
+                <div class="d-flex">
+                    <div class="card mx-5" style="width: 18rem;">
+                        <img class="card-img-top" src="public/images/blog_img1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <p class="card-text"><p class="font-weight-bold">Lorem Ipsum</p> example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card mx-5" style="width: 18rem;">
+                        <img class="card-img-top" src="public/images/blog_img2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <p class="card-text"><p class="font-weight-bold">Lorem Ipsum</p> example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-contact1-form-btn">
+                    <button class="contact1-form-btn bg-danger m-5">
+                        <span>
+                            Know More
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+
         </div>
     </div>
 </div>
 
 
+<section>
+    <div>
+        <div class="pb-5 d-flex justify-content-center py-5">
+            <h1><span class="text-danger">CLIENT </span>Testimonials</h1>
+        </div>
+    </div>
+    <div class="d-flex">
+        <div class=""><img class="rounded-circle w-50" src="public/images/testimonial1.jpg" alt=""></div>
+        
+        <div class=""><img class="rounded-circle w-50" src="public/images/testimonial1.jpg" alt=""></div>
+    </div>
 
 
+</section>
+
+
+<!-- Contact -->
+<section>
+    <div class="contact">
+        <div class="pb-5 d-flex justify-content-center py-5">
+            <h1><span class="text-danger">OUR</span> contact</h1>
+        </div>
+    </div>
+</section>
 
 
 
