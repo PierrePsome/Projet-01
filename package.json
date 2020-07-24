@@ -36,7 +36,9 @@
       "name": "Twitter, Inc."
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0"
+  },
   "deprecated": false,
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
   "devDependencies": {
