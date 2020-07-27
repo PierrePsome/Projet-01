@@ -9927,6 +9927,10 @@ h1 {
   font-family: "Courgette", cursive;
 }
 
+.txtnav {
+  font-size: 80%;
+}
+
 .concarou {
   position: relative;
 }
@@ -10032,9 +10036,13 @@ h1 {
 }
 
 .conres {
-  width: 100%;
+  width: 75%;
   background: url(../../public/images/book_table_bg.jpg);
   border-radius: 15px;
+}
+
+.mqcontact {
+  margin-right: 20px;
 }
 
 .pq {
@@ -10141,6 +10149,52 @@ h1 {
 
 .fab {
   color: white;
+}
+
+@media screen and (max-width: 600Px) {
+  .chefimg {
+    width: 80%;
+  }
+
+  .text-white {
+    font-size: 50%;
+  }
+
+  .btntheme {
+    font-size: 50%;
+  }
+
+  .btnlearn {
+    font-size: 50%;
+  }
+
+  .btns {
+    top: 100%;
+  }
+
+  .conres {
+    padding: 3;
+  }
+
+  .phone {
+    font-size: 50%;
+  }
+
+  .conres {
+    width: 100%;
+  }
+
+  .mqcontact {
+    margin-right: 10px;
+  }
+
+  .cardimg {
+    width: 50%;
+  }
+
+  .txtapril {
+    font-size: 70%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
